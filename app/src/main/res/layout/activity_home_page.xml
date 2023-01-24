@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/b1" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/breakfast"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#BEBEBE"
+        android:fontFamily="@font/aladin"
+        android:gravity="center"
+        android:text="breakfast"
+        android:textColor="#0B0A0A"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.221" />
+
+    <Button
+        android:id="@+id/lunch"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#BEBEBE"
+        android:gravity="center"
+        android:fontFamily="@font/aladin"
+        android:text="lunck / dinner"
+        android:textColor="#0B0A0A"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.52" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
